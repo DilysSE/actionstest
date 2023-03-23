@@ -17,8 +17,5 @@ jobs:
         run: terraform init
       - name: Terraform Validate
         run: terraform validate
-      - name: Multi line string
-        run: |
-          pwd
-          ls -a
-      
+      - name: Terraform plan
+        run: terraform plan
