@@ -17,6 +17,6 @@ jobs:
         run: terraform init
       - name: Multi line string
         run: |
-           pwd
-           ls -a
+          pwd
+          ls -a
       
